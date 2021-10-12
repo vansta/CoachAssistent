@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoachAssistent.Api", "CoachAssistent.Api\CoachAssistent.Api.csproj", "{3E5169BE-BA99-444E-91AC-91C9D14CE060}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9DB136A2-D3B1-49D1-9761-457B8C813233} = {9DB136A2-D3B1-49D1-9761-457B8C813233}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoachAssistent.Models", "CoachAssistent.Models", "{2F298701-7378-4DBB-9DF6-2A7F05C06890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoachAssistent.Models.Domain", "CoachAssistent.Models.Domain\CoachAssistent.Models.Domain.csproj", "{4D3DE3D5-0074-48DF-BBD4-7E45C156BC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoachAssistent.Data", "CoachAssistent.Data\CoachAssistent.Data.csproj", "{4D290EB7-EA2C-4E73-A72F-FB26EDFDFEFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoachAssistent.Models.ViewModels", "CoachAssistent.Models.ViewModels\CoachAssistent.Models.ViewModels.csproj", "{9DB136A2-D3B1-49D1-9761-457B8C813233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoachAssistent.Managers", "CoachAssistent.Managers\CoachAssistent.Managers.csproj", "{8507EF3D-592E-4FF1-9D3B-A049F1B9F461}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E5169BE-BA99-444E-91AC-91C9D14CE060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5169BE-BA99-444E-91AC-91C9D14CE060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5169BE-BA99-444E-91AC-91C9D14CE060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5169BE-BA99-444E-91AC-91C9D14CE060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3DE3D5-0074-48DF-BBD4-7E45C156BC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3DE3D5-0074-48DF-BBD4-7E45C156BC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3DE3D5-0074-48DF-BBD4-7E45C156BC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3DE3D5-0074-48DF-BBD4-7E45C156BC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D290EB7-EA2C-4E73-A72F-FB26EDFDFEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D290EB7-EA2C-4E73-A72F-FB26EDFDFEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D290EB7-EA2C-4E73-A72F-FB26EDFDFEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D290EB7-EA2C-4E73-A72F-FB26EDFDFEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB136A2-D3B1-49D1-9761-457B8C813233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB136A2-D3B1-49D1-9761-457B8C813233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB136A2-D3B1-49D1-9761-457B8C813233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB136A2-D3B1-49D1-9761-457B8C813233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8507EF3D-592E-4FF1-9D3B-A049F1B9F461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8507EF3D-592E-4FF1-9D3B-A049F1B9F461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8507EF3D-592E-4FF1-9D3B-A049F1B9F461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8507EF3D-592E-4FF1-9D3B-A049F1B9F461}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D3DE3D5-0074-48DF-BBD4-7E45C156BC85} = {2F298701-7378-4DBB-9DF6-2A7F05C06890}
+		{9DB136A2-D3B1-49D1-9761-457B8C813233} = {2F298701-7378-4DBB-9DF6-2A7F05C06890}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D5D243C-D6C2-4857-8484-14307DBA876F}
+	EndGlobalSection
+EndGlobal
